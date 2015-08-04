@@ -1,26 +1,26 @@
 <!doctype html>
 <html>
     <head>
-        <title>Brackets Extension Registry</title>
+        <title>Arduino Studio Extension Registry</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/styles.css" rel="stylesheet">
         <link href="/css/dropzone-basic.css" rel="stylesheet">
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss" />
+        <!--<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss" />-->
         <meta name="csrf-token" content="{{csrfToken}}">
     </head>
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
-                <a class="navbar-brand" href="/"><img class="logo pull-left" src="/img/brackets-24.svg">Brackets Extension Registry</a>
+                <a class="navbar-brand" href="/"><img class="logo pull-left" src="/img/arduino-studio-24.svg">Arduino Studio Extension Registry</a>
                 <p class="navbar-text pull-right">
                     {{#if user}}
                         Signed in as {{user}} | <a href="/logout">Sign out</a>
                     {{else}}
                         <a href="/auth/github">Sign in via GitHub</a>
                     {{/if}}
-                    | <a href="/rss">RSS</a>
+                    <!--| <a href="/rss">RSS</a>-->
                     {{#if helpURL}}
                     | <a href="{{helpURL}}">Help</a>
                     {{/if}}
